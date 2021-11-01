@@ -27,10 +27,10 @@ Message broker loaded earlier and load the model and tensorflow library once. It
 It can load balancing so in ideal cases number instance it must be equals number of threads CPU. 
 
 # Files
-www/breads.html - testing prediction without client from the browser
-cgi/DocClient.py - API for the prediction. Returns result in JSON format
-service/rpc_server.py - Messsage broker using Rabbit MQ server
-service/norm_class_rate_to_JS.py - tools that convert cvs format to json
+www/breads.html - testing prediction without client from the browser  
+cgi/DocClient.py - API for the prediction. Returns result in JSON format  
+service/rpc_server.py - Messsage broker using Rabbit MQ server  
+service/norm_class_rate_to_JS.py - tools that convert cvs format to json  
 
 
 
